@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" Inherits="LIVING.Site" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+	<title>Site</title>
+</head>
+<body>
+<div id="container">
+<form runat="server">
+    <asp:ContentPlaceHolder id="contentPlaceHolder1" runat="server" /> 
+</form>
+</div>
+</body>
+</html>
